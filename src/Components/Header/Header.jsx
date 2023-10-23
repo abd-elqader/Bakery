@@ -1,5 +1,8 @@
 import { Component, Fragment } from "react";
-
+import logo from '../../img/Place Your Logo Here (Double Click to Edit) 1.png';
+import bergar from '../../img/Place Your Image Here (Double Click to Edit)_.png';
+import star from '../../img/Star 1.svg';
+import '../../style.css';
 class Header extends Component {
 
     render() {
@@ -25,12 +28,12 @@ class Header extends Component {
                     <img
                         className="place-your-logo-here"
                         alt="Place your logo here"
-                        src="../img/place-your-logo-here-double-click-to-edit-1.png"
+                        src={logo}
                     />
                     <div className="text-wrapper-8">PEACHY PUP BAKERY</div>
                 </div>
                 <img className="body-text" alt="Body text" src="../img/body-text-1.png" />
-                <img className="mask-group-5" alt="Mask group" src="../img/mask-group.png" />
+                <img className="mask-group-5" alt="Mask group" src={bergar} />
                 <p className="lorem-ipsum-is-2">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry&#39;s standard dummy text ever since the
@@ -42,7 +45,7 @@ class Header extends Component {
                         <div className="text-wrapper-11">SEE MORE</div>
                     </div>
                 </div>
-                <img className="star" alt="Star" src="star-1.png" />
+                <img className="star" alt="Star" src={star} />
             </div>
         </Fragment>
     }

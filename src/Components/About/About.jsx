@@ -1,5 +1,5 @@
 import { Component, Fragment } from "react";
-
+import chif from '../../img/Rectangle 275.png';
 class About extends Component {
 
     render() {
@@ -26,7 +26,7 @@ class About extends Component {
                         <div className="contact-us">CONTACT US</div>
                     </div>
                 </div>
-                <img className="rectangle-8" alt="Rectangle" src="../img/rectangle-275.png" />
+                <img className="rectangle-8" alt="Rectangle" src={chif} />
             </div>
         </Fragment>
     }

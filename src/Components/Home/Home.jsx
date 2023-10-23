@@ -1,6 +1,9 @@
 import { Component, Fragment } from "react";
-import Style from './style.module.css'
-
+// import Style from './style.module.css'
+import rectangle268 from '../../img/Rectangle 268.png'
+import rectangle269 from '../../img/Rectangle 269.png'
+import rectangle270 from '../../img/Rectangle 270.png'
+import rectangle271 from '../../img/Rectangle 271.png'
 class Home extends Component {
 
     render() {
@@ -23,10 +26,10 @@ class Home extends Component {
                         <div className="contact-us">CONTACT US</div>
                     </div>
                 </div>
-                <img className="img" alt="Rectangle" src="../img/Rectangle 268.png" />
-                <img className="rectangle-3" alt="Rectangle" src="../img/rectangle-269.png" />
-                <img className="rectangle-4" alt="Rectangle" src="../img/rectangle-270.png" />
-                <img className="rectangle-5" alt="Rectangle" src="../img/rectangle-271.png" />
+                <img className="img" alt="Rectangle" src={rectangle268} />
+                <img className="rectangle-3" alt="Rectangle" src={rectangle269} />
+                <img className="rectangle-4" alt="Rectangle" src={rectangle270} />
+                <img className="rectangle-5" alt="Rectangle" src={rectangle271} />
             </div>
         </Fragment>
     }

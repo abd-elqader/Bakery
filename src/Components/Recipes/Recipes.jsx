@@ -1,5 +1,7 @@
 import { Component, Fragment } from "react";
-
+import first from '../../img/Bread omelette 1.png'
+import second from '../../img/Breakfast Potatoes.png'
+import third from '../../img/Home-made Mandazi.png'
 class Recipes extends Component {
 
     render() {
@@ -43,8 +45,8 @@ class Recipes extends Component {
                         </div>
                     </div>
                 </div>
-                <img className="bread-omelette" alt="Bread omelette" src="../img/bread-omelette-1.png" />
-                <img className="breakfast-potatoes" alt="Breakfast potatoes" src="../img/breakfast-potatoes.png" />
+                <img className="bread-omelette" alt="Bread omelette" src={first} />
+                <img className="breakfast-potatoes" alt="Breakfast potatoes" src={second} />
             </div>
         </Fragment>
     }
