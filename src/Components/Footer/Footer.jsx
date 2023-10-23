@@ -4,7 +4,7 @@ class Footer extends Component {
 
     render() {
         return <Fragment>
-            <h1>Footer</h1>
+            <div className="rectangle-15" />
         </Fragment>
     }
 
