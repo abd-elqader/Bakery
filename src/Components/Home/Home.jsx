@@ -4,6 +4,7 @@ import rectangle268 from '../../img/Rectangle 268.png'
 import rectangle269 from '../../img/Rectangle 269.png'
 import rectangle270 from '../../img/Rectangle 270.png'
 import rectangle271 from '../../img/Rectangle 271.png'
+import background from '../../img/Mask Group(1).png'
 class Home extends Component {
 
     render() {
@@ -11,7 +12,7 @@ class Home extends Component {
             <div className="overlap">
                 <div className="rectangle" />
                 <div className="rectangle-2" />
-                <img className="mask-group" alt="Mask group" src="mask-group-4.png" />
+                <img className="mask-group" alt="Mask group" src={background} />
                 <div className="how-we-work">
                     HOW WE
                     <br />

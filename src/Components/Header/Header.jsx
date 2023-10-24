@@ -2,6 +2,8 @@ import { Component, Fragment } from "react";
 import logo from '../../img/Place Your Logo Here (Double Click to Edit) 1.png';
 import bergar from '../../img/Place Your Image Here (Double Click to Edit)_.png';
 import star from '../../img/Star 1.svg';
+import box from '../../img/Group.png';
+import text1 from '../../img/Body Text 2.png'
 import '../../style.css';
 class Header extends Component {
 
@@ -17,7 +19,7 @@ class Header extends Component {
                 <img className="brandico-facebook" alt="Brandico facebook" src="../img/brandico-facebook-rect.svg" />
                 <div className="ellipse" />
                 <div className="rectangle-17" />
-                <img className="mask-group-4" alt="Mask group" src="../img/mask-group-3.png" />
+                <img className="mask-group-4" alt="Mask group" src={box} />
                 <img
                     className="place-your-image"
                     alt="Place your image"
@@ -32,7 +34,7 @@ class Header extends Component {
                     />
                     <div className="text-wrapper-8">PEACHY PUP BAKERY</div>
                 </div>
-                <img className="body-text" alt="Body text" src="../img/body-text-1.png" />
+                <img className="body-text" alt="Body text" src={text1} />
                 <img className="mask-group-5" alt="Mask group" src={bergar} />
                 <p className="lorem-ipsum-is-2">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the

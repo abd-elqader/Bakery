@@ -47,6 +47,7 @@ class Recipes extends Component {
                 </div>
                 <img className="bread-omelette" alt="Bread omelette" src={first} />
                 <img className="breakfast-potatoes" alt="Breakfast potatoes" src={second} />
+                <img className="home-made-mandazi" alt="Home made mandazi" src={third} />
             </div>
         </Fragment>
     }
